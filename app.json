@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "AHCS",
+    "slug": "AHCS",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ic_launcher-web.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/ic_launcher-web.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E5C599"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ic_launcher-web.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sayyed123.AHCS"
+    },
+    "web": {
+      "favicon": "./assets//ic_launcher-web.png"
+    },
+    "dependencies": {
+      "react-native-webview": "*"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5d3e3c66-8324-4991-9b19-899c636da266"
+      }
+    }
+  }
+}
